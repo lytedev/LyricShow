@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<AppSettings>
+  <Setting Name="DefaultSongDir" Value="C:\_csProj\_dfmrProj\Songs" />
+  <Setting Name="DefaultSongIndexFile" Value="C:\_csProj\Bin\Debug\SongIndex.xml" />
+  <Setting Name="DefaultBackgroundImage" Value="C:\_csProj\_dfmrProj\Backgrounds\unused\dentifoss.jpg" />
+  <Setting Name="DefaultBackgroundDir" Value="C:\_csProj\_dfmrProj\Backgrounds\" />
+  <Setting Name="NumDisplayScreens" Value="2" />
+  <Setting Name="ScreenSizeH0" Value="131" />
+  <Setting Name="ScreenSizeW0" Value="172" />
+  <Setting Name="ScreenName0" Value="MainDisplay" />
+  <Setting Name="ScreenIndex0" Value="0" />
+  <Setting Name="ScreenLocX0" Value="1064" />
+  <Setting Name="ScreenLocY0" Value="219" />
+  <Setting Name="EnableBackground0" Value="True" />
+  <Setting Name="ScreenSizeH1" Value="135" />
+  <Setting Name="ScreenSizeW1" Value="177" />
+  <Setting Name="ScreenName1" Value="RearProjector" />
+  <Setting Name="ScreenIndex1" Value="1" />
+  <Setting Name="ScreenLocX1" Value="1065" />
+  <Setting Name="ScreenLocY1" Value="362" />
+  <Setting Name="EnableBackground1" Value="False" />
+</AppSettings>
