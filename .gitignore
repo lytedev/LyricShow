@@ -1,3 +1,5 @@
+*.v12.suo
+*.pfx
 bin/*
 obj/*
 CustomControls/bin/*

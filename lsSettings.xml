@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <AppSettings>
-  <Setting Name="DefaultSongDir" Value="C:\_csProj\_dfmrProj\Songs" />
-  <Setting Name="DefaultSongIndexFile" Value="C:\_csProj\Bin\Debug\SongIndex.xml" />
-  <Setting Name="DefaultBackgroundImage" Value="C:\_csProj\_dfmrProj\Backgrounds\unused\dentifoss.jpg" />
-  <Setting Name="DefaultBackgroundDir" Value="C:\_csProj\_dfmrProj\Backgrounds\" />
+  <Setting Name="DefaultSongDir" Value=".\songs" />
+  <Setting Name="DefaultSongIndexFile" Value=".\SongIndex.xml" />
+  <Setting Name="DefaultBackgroundDir" Value=".\Backgrounds" />
+  <Setting Name="DefaultBackgroundImage" Value="" />
   <Setting Name="NumDisplayScreens" Value="2" />
   <Setting Name="ScreenSizeH0" Value="131" />
   <Setting Name="ScreenSizeW0" Value="172" />

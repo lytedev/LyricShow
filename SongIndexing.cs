@@ -19,7 +19,16 @@ namespace LyricShow
         {
             IndexDir = SongsSearchDir;
             IndexTime = DateTime.Now;
+
+            // check if default songs directory exists
+            if (!Directory.Exists(SongsSearchDir))
+            {
+                // if not, create it
+                Directory.CreateDirectory(SongsSearchDir);
+            }
             FileInfo[] SongFiles = new DirectoryInfo(SongsSearchDir).GetFiles("*.txt");
+
+
             DateTime NewestFileTime = GetLatestFile(SongFiles);
             SongIndex si = new SongIndex().ImportSongIndexXML("SongIndex.xml");
             if (NewestFileTime < si.IndexTime)
