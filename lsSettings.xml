@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <AppSettings>
-  <Setting Name="DefaultSongDir" Value=".\songs" />
+  <Setting Name="DefaultSongDir" Value=".\Songs" />
   <Setting Name="DefaultSongIndexFile" Value=".\SongIndex.xml" />
   <Setting Name="DefaultBackgroundDir" Value=".\Backgrounds" />
   <Setting Name="DefaultBackgroundImage" Value="" />
